@@ -1,5 +1,8 @@
-body{
-	background-color: black;
+.container{
+	background-image: url("img/full.jpg");
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	background-size: 100%;
 
 }
 .Article{
@@ -42,4 +45,6 @@ body{
 .left-img{
 	float: left;
 	border: solid 2px yellow;
+	margin: 5px;
+	padding: 5px;
 }
