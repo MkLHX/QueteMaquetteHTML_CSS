@@ -1,0 +1,45 @@
+body{
+	background-color: black;
+
+}
+.Article{
+	margin: 25px;
+}
+.topArticle{
+	background-color: black;
+	border-top: solid 5px yellow;
+	padding: 5px;
+}
+.titletopArticle{
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+}
+.subTitletopArticle{
+	color: black;
+	background-color: yellow;
+	font-weight: bold;
+	padding: 2px;
+	font-size: 15px;
+}
+.contentArticle p{
+	color: white;
+}
+.bottomArticle{
+	border-left: solid 5px yellow;
+	padding-left: 5px;
+}
+.whiteText{
+	color: white;
+}
+.yellowText{
+	color: yellow;
+	font-weight: bold;
+}
+.textUpper{
+	text-transform: uppercase;
+}
+.left-img{
+	float: left;
+	border: solid 2px yellow;
+}
