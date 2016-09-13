@@ -1,4 +1,4 @@
-.container{
+.container-fluid{
 	background-image: url("img/full.jpg");
 	background-repeat : no-repeat;
 	background-attachment : fixed;
@@ -47,4 +47,8 @@
 	border: solid 2px yellow;
 	margin: 5px;
 	padding: 5px;
+}
+.titleImg img{
+	width: 85%;
+
 }
