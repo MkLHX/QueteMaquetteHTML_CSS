@@ -1,103 +1,141 @@
 body{
-	background: black; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left,black, white ,black ); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(left,black, white , black); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(left,black, white , black); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right, black, white, black); /* Standard syntax */
-}
-footer{
+    text-align: justify;
+    font-size: 12px;
+    background-color: black;
+    color:white;
+    
+} 
 
+h1{
+    font-size: 20px;
+    font-weight: 800;
+    border-top: 3px solid yellow;
+    text-transform: uppercase;
 }
-.Article{
-	margin: 25px;
-	max-width: 800px;
+h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: yellow;
+    margin-top: -10px;
+    padding-left: 3px;
+    color: black;
 }
-.back{
-	background-image: url("img/full.jpg");
-	background-repeat: no-repeat;
-}
-.title{
-	/*background-image: url("img/title.jpg");
-	background-repeat: no-repeat;*/
-	margin: auto;
 
+h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
 }
-.title img{
-	z-index: -1;
+
+.bottom{
+    border-left: 3px solid yellow;
+    
 }
-.middle{
-	/*background-image: url("img/middle.jpg");
-	background-repeat: no-repeat;*/
-	min-width: 100%;
-	min-height: 100%;
+
+#skate1 {
+    float: left;
+    margin-right: 3px;
+    border: 1px solid yellow;
 }
+
+#skate2 {
+    float: right;
+    margin-left: 3px;
+    border: 1px solid yellow;
+}
+
+mark{
+    color:yellow;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+a {
+   
+    color: yellow;
+    
+}
+
+blockquote{
+    font-size: 12px;
+    border-left: none;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    background-color: dimgrey;
+    
+}
+
+.right-links{
+    font-size: 20px;
+    font-weight: 600;
+    list-style-image: url(img/star1.jpg);
+}
+
+.news {
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    margin-top: -10px;
+    margin-bottom: 88px;
+   
+}
+
+.updates {
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    margin-top: -20px;
+    padding-bottom: 110px;
+    padding-left: 5px;    
+}
+
+.full{
+    background-image: url(img/full2.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+.middle {
+    background-image: url(img/middle.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 50px;
+}
+
+.middle2{
+    background-image: url(img/middle2.jpg);
+    background-position: top right;
+    background-repeat: repeat-y;
+    height: 1015px;
+    width: 50px;
+}
+
+.logo{
+    background-image: url(img/title.png);
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
 .footer{
-	margin-top: 1200px;
+    height: 234px;
+    width:500px;
+    margin-top: 65px;
+    margin-left: -50px;
 }
-.topArticle{
-	background-color: black;
-	border-top: solid 5px yellow;
-	padding: 5px;
+
+footer{
+    padding-top: 20px;
 }
-.titletopArticle{
-	color: white;
-	font-weight: bold;
-	font-size: 25px;
+
+.linklist{
+    color: gray;
+    background-image: url(img/bg.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
-.subTitletopArticle{
-	color: black;
-	background-color: yellow;
-	font-weight: bold;
-	padding: 2px;
-	font-size: 15px;
-}
-.contentArticle p{
-	color: white;
-}
-.bottomArticle{
-	border-left: solid 5px yellow;
-	padding-left: 5px;
-	margin-top: 30px;
-}
-.whiteText{
-	color: white;
-}
-.yellowText{
-	color: yellow;
-}
-.textUpper{
-	text-transform: uppercase;
-}
-.boldText{
-	font-weight: bold;
-}
-.bolderText{
-	font-weight: bolder;
-}
-.left-img{
-	float: left;
-	border: solid 2px yellow;
-	margin: 5px;
-	padding: 5px;
-}
-.encart{
-	border-top: solid 1px yellow;
-	border-bottom: solid 1px yellow;
-	background-color: rgba(255,255,255,0.2);
-	max-width: 400px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-.listTitle{
-	font-weight: bold;
-}
-.list-group-item{	
-	background-color: rgba(125,125,125,0.2);
-	border-left: none;
-	border-right: none;
-	border-radius: none;
-	border-color: rgba(125,125,125,0.4);
-	padding: 10px;
-	font-weight: bolder;
-	color: grey;
+
+.firstlist{
+    list-style-image: url(img/bullet.gif);
 }

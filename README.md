@@ -1,1 +1,1 @@
-# QueteMaquetteHTML_CSS
+# qu-te_maquette
